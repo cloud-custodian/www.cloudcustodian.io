@@ -22,5 +22,5 @@ jobs:
           python-version: "3.11"
           cache: poetry
       - run: poetry install
-      - run: poetry mkdocs build -v
+      - run: poetry run mkdocs build -v
 
