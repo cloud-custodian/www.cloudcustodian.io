@@ -26,9 +26,17 @@ jobs:
           cache: poetry
       - run: poetry install
       - run: poetry run mkdocs build -v
-      - name: Deploy Docs
+      - name: Deploy Stage Docs
         uses: ./.github/composites/docs-publish
+        if: ${{ github.event.number }}        
         with:
           aws-role: ${{ secrets.DOC_PUBLISH_ROLE }}
           bucket-url: s3://docs-stage.cloudcustodian.io/docs/${{github.event.number}}
           docs-dir: site
+      - name: Deploy Docs
+        uses: ./.github/composites/docs-publish
+        if: ${{ github.event_name == 'push' }}
+        with:
+          aws-role: ${{ secrets.DOC_PUBLISH_ROLE }}
+          bucket-url: s3://cloudcustodian.io/
+          docs-dir: site          
