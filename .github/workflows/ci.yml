@@ -38,5 +38,5 @@ jobs:
         if: ${{ github.event_name == 'push' }}
         with:
           aws-role: ${{ secrets.DOC_PUBLISH_ROLE }}
-          bucket-url: s3://cloudcustodian.io/
+          bucket-url: s3://cloudcustodian.io
           docs-dir: site          
