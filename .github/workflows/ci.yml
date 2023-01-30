@@ -11,6 +11,9 @@ on:
 jobs:
   Build:
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read    
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -23,4 +26,9 @@ jobs:
           cache: poetry
       - run: poetry install
       - run: poetry run mkdocs build -v
-
+      - name: Deploy Docs
+        uses: ./.github/composites/docs-publish
+        with:
+          aws-role: ${{ secrets.DOC_PUBLISH_ROLE }}
+          bucket-url: s3://docs-stage.cloudcustodian.io/docs/${{github.event.number}}
+          docs-dir: site
