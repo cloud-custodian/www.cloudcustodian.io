@@ -40,7 +40,7 @@ Custodian supports managing AWS, Azure, and GCP public cloud environments with K
 
     Integrate Custodian with Terraform to ensure your infrastructure comes up compliant right from the start, all defined in git for true "Governance as Code" benefits. This feature is currently in Alpha.
 
-    [:octicons-arrow-left-24: Shift Left](https://github.com/cloud-custodian/cloud-custodian/issues/5782)
+    [:octicons-arrow-left-24: Shift Left](c7n-left.md)
 
 -   :fontawesome-solid-laptop-code:{ .lg .middle } __Run Anywhere__
 
