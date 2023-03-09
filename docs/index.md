@@ -6,7 +6,7 @@ hide:
 
 # The Path to a Well Managed Cloud
 
-Cloud Custodian enables you to manage your cloud resources by filtering, tagging, and then applying actions to them. The YAML DSL allows defininition of rules to enable well-managed cloud infrastructure that's both secure and cost optimized. 
+Cloud Custodian enables you to manage your cloud resources by filtering, tagging, and then applying actions to them. The YAML DSL allows definition of rules to enable well-managed cloud infrastructure that's both secure and cost optimized. 
 
 Replace ad-hoc cloud-specific scripts with simpler syntax, and Cloud Custodian will apply those policies to your infrastructure:
 
