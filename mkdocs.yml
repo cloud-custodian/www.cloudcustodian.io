@@ -54,7 +54,7 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/cloud-custodian
     - icon: fontawesome/brands/slack
-      link: https://communityinviter.com/apps/cloud-custodian/c7n-chat
+      link: https://cloudcustodian.io/slack/
     - icon: fontawesome/brands/docker
       link: https://hub.docker.com/u/cloudcustodian
     - icon: fontawesome/brands/python

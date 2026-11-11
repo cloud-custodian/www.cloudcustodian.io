@@ -12,7 +12,7 @@ Replace ad-hoc cloud-specific scripts with simpler syntax, and Cloud Custodian w
 
 <center>![Cloud Custodian](c7n.png)</center>
 
-<center>[Join our Slack](https://communityinviter.com/apps/cloud-custodian/c7n-chat){ .md-button .md-button-primary }</center>
+<center>[Join our Slack](https://cloudcustodian.io/slack/){ .md-button .md-button-primary }</center>
 
 Custodian supports managing AWS, Azure, and GCP public cloud environments with Kubernetes, Tencent Cloud, and OpenStack support in beta. 
 

@@ -4,7 +4,7 @@
 
 We have a regular community meeting that is open to all users and developers of every skill level. 
 
-<center>[Join Slack](https://communityinviter.com/apps/cloud-custodian/c7n-chat){ .md-button .md-button-primary } [Join the mailing list](https://groups.google.com/forum/#!forum/cloud-custodian){ .md-button .md-button-primary }</center>
+<center>[Join Slack](https://cloudcustodian.io/slack/){ .md-button .md-button-primary } [Join the mailing list](https://groups.google.com/forum/#!forum/cloud-custodian){ .md-button .md-button-primary }</center>
 
 To receive an invite to the meeting, or you can manually add it [via the calendar](https://cloudcustodian.io/calendar/).
 
@@ -24,7 +24,7 @@ All meetings are open to the public and recorded:
 ## Getting Involved
 
 -   [GitHub](https://github.com/cloud-custodian/cloud-custodian) - Project home page
--   [Slack](https://communityinviter.com/apps/cloud-custodian/c7n-chat) - Real time chat if you're looking for help or interested in contributing to Custodian! 
+-   [Slack](https://cloudcustodian.io/slack/) - Real time chat if you're looking for help or interested in contributing to Custodian! 
     - [Gitter](https://gitter.im/cloud-custodian/cloud-custodian) - (Older real time chat, we're likely migrating away from this)
 -   [Mailing List](https://groups.google.com/forum/#!forum/cloud-custodian) - Our project mailing list, subscribe here for important project announcements, feel free to ask questions
 -   [Reddit](https://reddit.com/r/cloudcustodian) - Our subreddit
