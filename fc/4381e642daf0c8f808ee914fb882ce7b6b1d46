@@ -1,0 +1,27 @@
+docs/slack/index.html
+  s_393332da4839dd::t_2d352657584dec 1-19
+docs/community/index.md
+  s_393332da4839dd::t_8680df17f59a3f 7,27
+docs/index.md
+  s_393332da4839dd::t_8116b187b56057 15
+mkdocs.yml
+  s_393332da4839dd::t_48de2c7012ebc1 57
+overrides/main.html
+  s_393332da4839dd::t_eeecd6897fc14b 4
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "fc4381e642daf0c8f808ee914fb882ce7b6b1d46",
+  "prompts": {},
+  "sessions": {
+    "s_393332da4839dd": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "3e14b223-d652-4b2c-91c7-392ff1a963b2",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "AJ Kerrigan <aj@stacklet.io>"
+    }
+  }
+}
